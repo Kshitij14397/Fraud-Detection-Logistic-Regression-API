@@ -11,12 +11,15 @@ Using credit card data to classify fradulent transactions. Based on [this](https
 # Issues encountered:
 
 - Computational power
- - Google Colab too low for full dataset
- - Only trained on 20 000 observations
+  - Google Colab too low for full dataset
+  - Only trained on 20 000 observations
 - Hyperparameter tuning
- - Need more computation for grid search
- - Could improve model with gradient descent or genetic algo
+  - Need more computation for grid search
+  - Could improve model with gradient descent or genetic algo
 - Bias
- - Model is too simple, not enough data used
- - Related to computational power
- - LightGBM or XGBoost would've been better
+  - Model is too simple, not enough data used
+  - Related to computational power
+  - LightGBM or XGBoost would've been better
+
+# Result
+Model had ~70% recall on training data.
