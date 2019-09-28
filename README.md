@@ -23,3 +23,6 @@ Using credit card data to classify fradulent transactions. Based on [this](https
 
 # Result
 Model had ~70% recall on training data.
+
+# API
+Next part of the project is to build an API with Stripe (payment) and Firebase (Customer data). The API is fully functional on our local system with a Flask app as the backend.
